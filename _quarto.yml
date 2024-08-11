@@ -8,6 +8,14 @@ website:
   title: "πgeon Stats"
   site-url: https://christian-f-badillo.github.io/pigeon-stats/
   description: "πgeon Stats un blog para dinfunfir el conocimiento estadístico a todo el público"
+  google-analytics: 
+    tracking-id: "G-PF6DY4P2JY"
+    anonymize-ip: true
+  cookie-consent: 
+    type: express
+    style: interstitial
+    palette: light
+    prefs-text: "Preferencias para Cookies"
   navbar:
     logo: /img/site-autor-logos-img/logo.png
     right:
