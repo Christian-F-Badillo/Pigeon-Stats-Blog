@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Entradas",
-    "section": "",
-    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRegresión Lineal\n\n\n\n\n\n\nRegresión Lineal\n\n\nR\n\n\nEstadística Inferencial\n\n\n\n\n\n\n\n\n\n15 jul 2024\n\n\nChristian F Badillo H\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\n Volver arriba"
-  },
-  {
-    "objectID": "posts/Regression_Linear/index.html",
-    "href": "posts/Regression_Linear/index.html",
-    "title": "Regresión Lineal",
-    "section": "",
-    "text": "La regresión lineal es una herramienta estadística ampliamente utilizada para analizar, modelar y predecir el valor de una variable por medio del uso de otras variables. La variable a predecir normalmente se le conoce con distintos nombres: variable independiente, variable respuesta, regresor, variable explicada, etc. El conjunto de variables que permiten realizar la predicción se les conoce en general como variables independientes, carácterticas, variable predictora, etc.\nUn ejemplo es el predecir las horas de sueño de una persona a partir de variables explicatorias como el peso, la cantidad de minutos de ejercicio, el nivel de ansiedad, el nivel de depresión, etc., en un conjunto de personas.\n\n1 Modelo Lineal\nEl modelo de regresión lineal asume que la variable dependiente tiene una distribución de probabilidad que es afectada por los distintos valores que toman las variables independientes, pero no asume nada acerca de la distribución de las variables independientes (Agresti y Kateri 2021, cap. 6).\nEn el caso más sencillo la distribución de la variable dependiente (\\(Y\\)) se asume que es normal cuya media es afectada por el valor de una variable dependiente(\\(X\\)). En notación matemática:\n\\[ E(Y) = \\beta_0 + \\beta_1 X \\]\nEl símbolo \\(E(\\cdot)\\) representa lo que en estadística se conoce como valor esperado, promedio o media aritmética. Una pregunta natural que puede surgir en este caso es: ¿por qué deberiamos predecir el promedio de la variable dependiente? La razón es que ningún modelo predice con exactitud y lo que se busca es minimizar el error de predicción de los modelos estadísticos, el error puede ser calculado de distintas formas pero el que comúnmente se usa es el error cuadrático el valor que minimiza este tipo de error resulta ser el valor esperado o promedio de la variable dependiente. En otras palabras, si usamos nuestra variable explicatoria para predecir el valor promedio o esperado de nuestra variable respuesta nuestro error en la estimación será el menor posible!\nLas \\(\\beta\\)’s aquí representan los parámetros del modelo de regresión, siendo \\(\\beta_0\\) el intercepto que determina el valor esperado de la variable dependiente (\\(Y\\)) cuando el valor de nuestra variable independiente es \\(X = 0\\). Por otro lado, el parámetro o coeficiente \\(\\beta_1\\) es conocido como intercepto y representa el “efecto” o “importancia” de la variable independiente (\\(X\\)) en el valor esperado de nuestra variable dependiente (\\(Y\\)).\nEl nombre de lineal porviene de que la ecuación de la regresión cumple con la definición de linealidad en matemáticas (para más detalle ver Sección 2)\n\n\nReferencias\n\n\nAgresti, Alan, y Maria Kateri. 2021. Foundations of Statistics for data scientists. https://doi.org/10.1201/9781003159834.\n\n\n\n\n\n Volver arriba2 Apéndice 1: Linealidad"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Christian Francisco Badillo Hernández",
@@ -47,5 +19,19 @@
     "title": "Christian Francisco Badillo Hernández",
     "section": "Experiencia",
     "text": "Experiencia\nIIMAS | Especialidad en Estadística Aplicada | Ago 2024 - presente\nIIMAS | Servicio Social - Desarrollo de sistemas inteligentes usando deep learning | Feb 2024 - Ago 2024\nFacultad de Psicología UNAM | Impartición de Curso Intersemestral - Temas Selectos en Estadística | Periodo 2024-1\nUNAM | Curso de Verano - Macroentrenamiento en Inteligencia Artificial (MeIA) 2023. | Jun 2023\nNeuromatch Academy | Curso de Verano - NMA Computational Neuroscience | Jul 2022"
+  },
+  {
+    "objectID": "posts/Regression_Linear/index.html",
+    "href": "posts/Regression_Linear/index.html",
+    "title": "Regresión Lineal",
+    "section": "",
+    "text": "La regresión lineal es una herramienta estadística ampliamente utilizada para analizar, modelar y predecir el valor de una variable por medio del uso de otras variables. La variable a predecir normalmente se le conoce con distintos nombres: variable independiente, variable respuesta, regresor, variable explicada, etc. El conjunto de variables que permiten realizar la predicción se les conoce en general como variables independientes, carácterticas, variable predictora, etc.\nUn ejemplo es el predecir las horas de sueño de una persona a partir de variables explicatorias como el peso, la cantidad de minutos de ejercicio, el nivel de ansiedad, el nivel de depresión, etc., en un conjunto de personas.\n\n1 Modelo Lineal\nEl modelo de regresión lineal asume que la variable dependiente tiene una distribución de probabilidad que es afectada por los distintos valores que toman las variables independientes, pero no asume nada acerca de la distribución de las variables independientes (Agresti y Kateri 2021, cap. 6).\nEn el caso más sencillo la distribución de la variable dependiente (\\(Y\\)) se asume que es normal cuya media es afectada por el valor de una variable dependiente(\\(X\\)). En notación matemática:\n\\[ E(Y) = \\beta_0 + \\beta_1 X \\]\nEl símbolo \\(E(\\cdot)\\) representa lo que en estadística se conoce como valor esperado, promedio o media aritmética. Una pregunta natural que puede surgir en este caso es: ¿por qué deberiamos predecir el promedio de la variable dependiente? La razón es que ningún modelo predice con exactitud y lo que se busca es minimizar el error de predicción de los modelos estadísticos, el error puede ser calculado de distintas formas pero el que comúnmente se usa es el error cuadrático el valor que minimiza este tipo de error resulta ser el valor esperado o promedio de la variable dependiente. En otras palabras, si usamos nuestra variable explicatoria para predecir el valor promedio o esperado de nuestra variable respuesta nuestro error en la estimación será el menor posible!\nLas \\(\\beta\\)’s aquí representan los parámetros del modelo de regresión, siendo \\(\\beta_0\\) el intercepto que determina el valor esperado de la variable dependiente (\\(Y\\)) cuando el valor de nuestra variable independiente es \\(X = 0\\). Por otro lado, el parámetro o coeficiente \\(\\beta_1\\) es conocido como intercepto y representa el “efecto” o “importancia” de la variable independiente (\\(X\\)) en el valor esperado de nuestra variable dependiente (\\(Y\\)).\nEl nombre de lineal porviene de que la ecuación de la regresión cumple con la definición de linealidad en matemáticas (para más detalle ver Sección 2)\n\n\nReferencias\n\n\nAgresti, Alan, y Maria Kateri. 2021. Foundations of Statistics for data scientists. https://doi.org/10.1201/9781003159834.\n\n\n\n\n\n Volver arriba2 Apéndice 1: Linealidad"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Entradas",
+    "section": "",
+    "text": "Ordenar por\n       Por defecto\n         \n          Título\n        \n         \n          Fecha - Menos reciente\n        \n         \n          Fecha - Más reciente\n        \n         \n          Autor/a\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRegresión Lineal\n\n\n\n\n\n\nRegresión Lineal\n\n\nR\n\n\nEstadística Inferencial\n\n\n\n\n\n\n\n\n\n15 jul 2024\n\n\nChristian F Badillo H\n\n\n\n\n\n\nNo hay resultados\n\n Volver arriba"
   }
 ]
