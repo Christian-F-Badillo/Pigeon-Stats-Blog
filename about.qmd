@@ -1,0 +1,48 @@
+---
+title: "Christian Francisco Badillo Hernández"
+image: /img/site-autor-logos-img/cris.jpeg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:  
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/Christi91084601
+    - icon: github
+      text: Github
+      href: https://github.com/Christian-F-Badillo
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christian-badillo/
+
+---
+<center>
+![](/img/site-autor-logos-img/logo.png){width="450px" height="450px"}
+
+***πgeon Stats*** surge con la visión de crear contenido en español de alta calidad y actualizado en temas de modelamiento computacional/matemático, metodología, estadística descriptiva e inferencial, causalidad y probabilidad en las ciencias del comportamiento (psicología, sociología, neurociencias, economía conductual, etc.) para profesionistas, estudiantes y público general.
+</center>
+
+#  Autor
+
+:::{#hero-heading}
+
+**Christian Badiillo** es egresado de la Facultad de Psicología, UNAM con apasionado interés por el estudio del comportamiento humano su modelamiento computacional y el análisis estadístico bayesiano de datos. Actualmente es miembro del Lab25 "Aprendizaje y Comportamiento Adaptable" de la Facultad de Psicología, UNAM donde se dedica a la investigación en el campo del modelamiento computacional del comportamiento y su intersección con la inteligencia artificial.
+
+## Educación
+
+Facultad de Psicología UNAM \| Ciudad de México, México Licenciatura en Psicología \| Ago 2019 - Ago 2023
+
+## Experiencia
+
+IIMAS \| Especialidad en Estadística Aplicada \| Ago 2024 - presente
+
+IIMAS \| Servicio Social - Desarrollo de sistemas inteligentes usando deep learning \| Feb 2024 - Ago 2024
+
+Facultad de Psicología UNAM \| Impartición de Curso Intersemestral - Temas Selectos en Estadística \| Periodo 2024-1
+
+UNAM \| Curso de Verano - Macroentrenamiento en Inteligencia Artificial (MeIA) 2023. \| Jun 2023
+
+Neuromatch Academy \| Curso de Verano - NMA Computational Neuroscience \| Jul 2022
+
+:::

@@ -1,0 +1,14 @@
+---
+title: "Entradas"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: "unnumbered"
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  page-size: 20
+page-layout: full
+title-block-banner: true
+---

@@ -1,0 +1,17 @@
+{
+  "index.qmd": {
+    "index.html": "0ce42582"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "c0b4038a"
+  },
+  "posts/Regression_Linear/index.qmd": {
+    "index.html": "c30daf49"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "8c88cab2"
+  },
+  "about.qmd": {
+    "about.html": "ae0ab8ea"
+  }
+}

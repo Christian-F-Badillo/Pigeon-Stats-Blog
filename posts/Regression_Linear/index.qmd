@@ -1,0 +1,38 @@
+---
+title: "Regresión Lineal"
+author: "Christian F Badillo H"
+date: "2024-07-15"
+categories: [Regresión Lineal, R, Estadística Inferencial]
+image: "regression_lineal_portada.webp"
+bibliography: ref_linear_regression.bib
+bibliographystyle: apa
+biblio-config: true
+toc: true
+number-sections: true
+
+---
+
+La ***regresión lineal*** es una herramienta estadística ampliamente utilizada para analizar, modelar y predecir el valor de una variable por medio del uso de otras variables. La variable a predecir normalmente se le conoce con distintos nombres: *variable independiente*, *variable respuesta*, *regresor*, *variable explicada*, etc. El conjunto de variables que permiten realizar la predicción se les conoce en general como *variables independientes*, *carácterticas*, *variable predictora*, etc.
+
+Un ejemplo es el predecir las horas de sueño de una persona a partir de variables explicatorias como el peso, la cantidad de minutos de ejercicio, el nivel de ansiedad, el nivel de depresión, etc., en un conjunto de personas.
+
+# Modelo Lineal
+
+El modelo de regresión lineal asume que la variable dependiente tiene una distribución de probabilidad que es afectada por los distintos valores que toman las variables independientes, pero no asume nada acerca de la distribución de las variables independientes [@agresti-2021, cap. 6]. 
+
+En el caso más sencillo la distribución de la variable dependiente ($Y$) se asume que es normal cuya media es afectada por el valor de una variable dependiente($X$). En notación matemática:
+
+$$ E(Y) = \beta_0 + \beta_1 X $$
+
+El símbolo $E(\cdot)$ representa lo que en estadística se conoce como **valor esperado**, promedio o media aritmética. Una pregunta natural que puede surgir en este caso es: ¿por qué deberiamos predecir el promedio de la variable dependiente? La razón es que ningún modelo predice con exactitud y lo que se busca es minimizar el error de predicción de los modelos estadísticos, el error puede ser calculado de distintas formas pero el que comúnmente se usa es el ***error cuadrático*** el valor que minimiza este tipo de error resulta ser el valor esperado o promedio de la variable dependiente. En otras palabras, si usamos nuestra variable explicatoria para predecir el valor promedio o esperado de nuestra variable respuesta nuestro error en la estimación será el menor posible!
+
+Las $\beta$'s aquí representan los parámetros del modelo de regresión, siendo $\beta_0$ el **intercepto** que determina el valor esperado de la variable dependiente ($Y$) cuando el valor de nuestra variable independiente es $X = 0$. Por otro lado, el parámetro o coeficiente $\beta_1$ es conocido como **intercepto** y representa el "efecto" o "importancia" de la variable independiente ($X$) en el valor esperado de nuestra variable dependiente ($Y$).
+
+El nombre de lineal porviene de que la ecuación de la regresión cumple con la definición de linealidad en matemáticas (para más detalle ver @sec-ape1) 
+
+# Referencias {-}
+
+::: {#refs}
+:::
+
+# Apéndice 1: Linealidad {#sec-ape1 .appendix}

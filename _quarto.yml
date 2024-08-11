@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  margin-header: subscribe.html
+  title: "πgeon Stats"
+  navbar:
+    logo: /img/site-autor-logos-img/logo.png
+    right:
+      - text: "Acerca"
+        href: about.qmd
+      - icon: github
+        href: https://github.com/Christian-F-Badillo/Pigeon-Stats-blog/tree/master  
+  
+  back-to-top-navigation: true
+  page-footer: 
+    left: |
+      Copyright {{< fa brands creative-commons >}} 2024 por Christian Francisco Badillo Hernández <br>
+      Contenido con licencia {{< fa brands creative-commons >}}
+      {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+      [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) 
+    right: |
+      Hecho con [{{< fa brands r-project >}}](https://www.r-project.org/) y [Quarto](https://quarto.org) <br>
+      Código fuente disponible en [GitHub](https://github.com/Christian-F-Badillo/Pigeon-Stats-blog/tree/master)
+
+    border: true
+    background: warning
+    foreground: secundary
+
+format:
+  html:
+    theme: simplex 
+
+    css: styles.css
+    
+execute: 
+  freeze: auto
+
+comments:
+    giscus:
+      repo: Christian-F-Badillo/Pigeon-Stats-comments
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      language: es
+      theme: noborder_light
+
+lang: es
+
+editor: visual
