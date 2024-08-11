@@ -35,11 +35,13 @@ Facultad de Psicología UNAM \| Ciudad de México, México Licenciatura en Psico
 
 ## Experiencia
 
-IIMAS \| Especialidad en Estadística Aplicada \| Ago 2024 - presente
+Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM \| Especialidad en Estadística Aplicada \| Ago 2024 - presente
 
-IIMAS \| Servicio Social - Desarrollo de sistemas inteligentes usando deep learning \| Feb 2024 - Ago 2024
+Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), UNAM \| Servicio Social - Desarrollo de sistemas inteligentes usando deep learning \| Feb 2024 - Ago 2024
 
-Facultad de Psicología UNAM \| Impartición de Curso Intersemestral - Temas Selectos en Estadística \| Periodo 2024-1
+Facultad de Psicología, UNAM \| Impartición de Curso Intersemestral - [Ciencia de Datos con Python: de Estadística Descriptiva a Redes Neuronales](https://christian-f-badillo.github.io/Ciencia-de-datos-con-Python-de-estadistica-descriptiva-a-redes-neuronales/) \| Periodo 2024-2
+
+Facultad de Psicología, UNAM \| Impartición de Curso Intersemestral - Temas Selectos en Estadística \| Periodo 2024-1
 
 UNAM \| Curso de Verano - Macroentrenamiento en Inteligencia Artificial (MeIA) 2023. \| Jun 2023
 

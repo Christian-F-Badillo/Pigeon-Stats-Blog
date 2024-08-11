@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>πgeon Stats</title>
+<link>https://christian-f-badillo.github.io/pigeon-stats/</link>
+<atom:link href="https://christian-f-badillo.github.io/pigeon-stats/index.xml" rel="self" type="application/rss+xml"/>
+<description>πgeon Stats un blog para dinfunfir el conocimiento estadístico a todo el público</description>
+<generator>quarto-1.4.551</generator>
+<lastBuildDate>Mon, 15 Jul 2024 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Regresión Lineal</title>
+  <dc:creator>Christian F Badillo H</dc:creator>
+  <link>https://christian-f-badillo.github.io/pigeon-stats/posts/Regression_Linear/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>La <strong><em>regresión lineal</em></strong> es una herramienta estadística ampliamente utilizada para analizar, modelar y predecir el valor de una variable por medio del uso de otras variables. La variable a predecir normalmente se le conoce con distintos nombres: <em>variable independiente</em>, <em>variable respuesta</em>, <em>regresor</em>, <em>variable explicada</em>, etc. El conjunto de variables que permiten realizar la predicción se les conoce en general como <em>variables independientes</em>, <em>carácterticas</em>, <em>variable predictora</em>, etc.</p>
+<p>Un ejemplo es el predecir las horas de sueño de una persona a partir de variables explicatorias como el peso, la cantidad de minutos de ejercicio, el nivel de ansiedad, el nivel de depresión, etc., en un conjunto de personas.</p>
+<section id="modelo-lineal" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Modelo Lineal</h1>
+<p>El modelo de regresión lineal asume que la variable dependiente tiene una distribución de probabilidad que es afectada por los distintos valores que toman las variables independientes, pero no asume nada acerca de la distribución de las variables independientes <span class="citation" data-cites="agresti-2021">(Agresti y Kateri 2021, cap. 6)</span>.</p>
+<p>En el caso más sencillo la distribución de la variable dependiente (<img src="https://latex.codecogs.com/png.latex?Y">) se asume que es normal cuya media es afectada por el valor de una variable dependiente(<img src="https://latex.codecogs.com/png.latex?X">). En notación matemática:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%20E(Y)%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20X%20"></p>
+<p>El símbolo <img src="https://latex.codecogs.com/png.latex?E(%5Ccdot)"> representa lo que en estadística se conoce como <strong>valor esperado</strong>, promedio o media aritmética. Una pregunta natural que puede surgir en este caso es: ¿por qué deberiamos predecir el promedio de la variable dependiente? La razón es que ningún modelo predice con exactitud y lo que se busca es minimizar el error de predicción de los modelos estadísticos, el error puede ser calculado de distintas formas pero el que comúnmente se usa es el <strong><em>error cuadrático</em></strong> el valor que minimiza este tipo de error resulta ser el valor esperado o promedio de la variable dependiente. En otras palabras, si usamos nuestra variable explicatoria para predecir el valor promedio o esperado de nuestra variable respuesta nuestro error en la estimación será el menor posible!</p>
+<p>Las <img src="https://latex.codecogs.com/png.latex?%5Cbeta">’s aquí representan los parámetros del modelo de regresión, siendo <img src="https://latex.codecogs.com/png.latex?%5Cbeta_0"> el <strong>intercepto</strong> que determina el valor esperado de la variable dependiente (<img src="https://latex.codecogs.com/png.latex?Y">) cuando el valor de nuestra variable independiente es <img src="https://latex.codecogs.com/png.latex?X%20=%200">. Por otro lado, el parámetro o coeficiente <img src="https://latex.codecogs.com/png.latex?%5Cbeta_1"> es conocido como <strong>intercepto</strong> y representa el “efecto” o “importancia” de la variable independiente (<img src="https://latex.codecogs.com/png.latex?X">) en el valor esperado de nuestra variable dependiente (<img src="https://latex.codecogs.com/png.latex?Y">).</p>
+<p>El nombre de lineal porviene de que la ecuación de la regresión cumple con la definición de linealidad en matemáticas (para más detalle ver Sección&nbsp;2)</p>
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-agresti-2021" class="csl-entry">
+Agresti, Alan, y Maria Kateri. 2021. <em><span>Foundations of Statistics for data scientists</span></em>. <a href="https://doi.org/10.1201/9781003159834">https://doi.org/10.1201/9781003159834</a>.
+</div>
+</div>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section id="sec-ape1" class="level1 appendix" data-number="2"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">2</span> Apéndice 1: Linealidad</h2><div class="quarto-appendix-contents">
+
+
+
+</div></section></div> ]]></description>
+  <category>Regresión Lineal</category>
+  <category>R</category>
+  <category>Estadística Inferencial</category>
+  <guid>https://christian-f-badillo.github.io/pigeon-stats/posts/Regression_Linear/</guid>
+  <pubDate>Mon, 15 Jul 2024 06:00:00 GMT</pubDate>
+  <media:content url="https://christian-f-badillo.github.io/pigeon-stats/posts/Regression_Linear/regression_lineal_portada.webp" medium="image" type="image/webp"/>
+</item>
+</channel>
+</rss>

@@ -6,13 +6,17 @@ project:
 website:
   margin-header: subscribe.html
   title: "πgeon Stats"
+  site-url: https://christian-f-badillo.github.io/pigeon-stats/
+  description: "πgeon Stats un blog para dinfunfir el conocimiento estadístico a todo el público"
   navbar:
     logo: /img/site-autor-logos-img/logo.png
     right:
+      - icon: rss
+        href: index.xml
       - text: "Acerca"
         href: about.qmd
       - icon: github
-        href: https://github.com/Christian-F-Badillo/Pigeon-Stats-blog/tree/master  
+        href: https://github.com/Christian-F-Badillo/pigeon-stats/tree/master  
   
   back-to-top-navigation: true
   page-footer: 
